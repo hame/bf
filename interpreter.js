@@ -7,7 +7,8 @@ let tape = new Array(100).fill(0); // Initialise all to 0
 let memory_pointer = 0;
 let instruction_pointer = 0;
 
-let source = "++>>++";
+let source =
+  "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.>>+++.-.";
 console.log(`Source code is: ${source}`);
 console.log(`Source code length is ${source.length}`);
 
@@ -33,7 +34,8 @@ while (instruction_pointer < source.length) {
       memory_pointer--;
       break;
     case ".":
-      console.log(tape[memory_pointer]);
+      let ascii_value = String.fromCharCode(tape[memory_pointer]);
+      console.log(ascii_value);
       break;
     case ",":
       // not implementing user input yet
