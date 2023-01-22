@@ -11,3 +11,6 @@ https://www.youtube.com/watch?v=4uNM73pfJn0
 My go to:
 https://esolangs.org/wiki/Brainfuck 
 
+Nice gist:
+https://gist.github.com/roachhd/dce54bec8ba55fb17d3a 
+
